@@ -1,4 +1,4 @@
-# myvim
+# my Vim
 
 ```bash
 $ sudo apt-get remove vim-tiny
@@ -8,7 +8,7 @@ $ touch ~/.vimrc
 
 ```
 
-![screenshot](https://github.com/deeper-x/myvim/raw/master/myvim.pngi "Screenshot")
+![screenshot](https://raw.githubusercontent.com/deeper-x/myvim/master/myvim.png "Screenshot")
 
 #### .vimrc:
 
