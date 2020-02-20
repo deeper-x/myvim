@@ -74,6 +74,7 @@ Plugin 'scrooloose/nerdtree'
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+nmap <F6> :NERDTreeToggle<CR>
 
 " search everything with <CTRL-P>
 Plugin 'kien/ctrlp.vim'
