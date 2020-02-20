@@ -14,4 +14,11 @@ $ touch ~/.vimrc
 
 Paste content, then :PluginInstall
 
+### Bugfix
+#### error: mypy: error: unrecognized arguments: --fast-parser
+```bash
+$ vim $HOME/.vim/bundle/vim-mypy/autoload/mypy.vim
+# line 14 must be
+execute "!mypy --ignore-missing-imports --follow-imports=skip " . bufname("%")
+```
 
