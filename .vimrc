@@ -1,20 +1,3 @@
-# myvim
-
-```bash
-$ sudo apt-get remove vim-tiny
-$ sudo apt-get install vim
-$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-$ touch ~/.vimrc
-
-```
-
-![screenshot](https://github.com/deeper-x/myvim/raw/master/myvim.pngi "Screenshot")
-
-#### .vimrc:
-
-Paste content, then :PluginInstall
-
-```bash
 set nocompatible              " required
 filetype off                  " required
 
@@ -106,8 +89,3 @@ Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 set clipboard=unnamed
 
-" Markdown support
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-
-```
