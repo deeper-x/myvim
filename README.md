@@ -13,7 +13,7 @@ $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 $ wget -O ${HOME}/.vimrc https://raw.githubusercontent.com/deeper-x/myvim/master/.vimrc
 ```
 
-Plugin list:
+#### Plugin list:
 ```bash
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
@@ -31,6 +31,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'integralist/vim-mypy'
 ```
 
+#### Result is:
 
 ![screenshot](https://raw.githubusercontent.com/deeper-x/myvim/master/myvim.png "Screenshot")
 
