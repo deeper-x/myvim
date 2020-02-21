@@ -3,6 +3,12 @@
 ```bash
 $ sudo apt-get remove vim-tiny
 $ sudo apt-get install vim
+# verify python3 support 
+$ vim --version # expected +python3
+# Test
+:python3 print(f"""hello, you're in ${os.getcwd()}""")
+```
+
 # Vundle is the plugin manager
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 $ touch ~/.vimrc
