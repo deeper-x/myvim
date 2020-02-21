@@ -11,9 +11,12 @@ $ vim --version # expected +python3
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # get remote file config 
 $ wget -O ${HOME}/.vimrc https://raw.githubusercontent.com/deeper-x/myvim/master/.vimrc
+# Install plugins
+$ vim ${HOME}/.vimrc
+:PluginInstall
 ```
 
-#### Plugin list:
+#### Installed plugins:
 ```bash
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
@@ -35,9 +38,7 @@ Plugin 'integralist/vim-mypy'
 
 ![screenshot](https://raw.githubusercontent.com/deeper-x/myvim/master/myvim.png "Screenshot")
 
-#### .vimrc:
 
-Paste content, then :PluginInstall
 
 ### Bugfix
 #### error: mypy: error: unrecognized arguments: --fast-parser
