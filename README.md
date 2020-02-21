@@ -7,8 +7,6 @@ $ sudo apt-get install vim
 $ vim --version # expected +python3
 # Test
 :python3 print(f"""hello, you're in ${os.getcwd()}""")
-```
-
 # Vundle is the plugin manager
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 $ touch ~/.vimrc
