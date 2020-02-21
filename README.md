@@ -9,8 +9,8 @@ $ vim --version # expected +python3
 :python3 print(f"""hello, you're in ${os.getcwd()}""")
 # Vundle is the plugin manager
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-$ touch ~/.vimrc
-
+# get remote file config 
+$ wget -O ${HOME}/.vimrc https://raw.githubusercontent.com/deeper-x/myvim/master/.vimrc
 ```
 
 Plugin list:
